@@ -1,7 +1,8 @@
 version: '3'
-
-network_mode: host
 services:
+  your-service: 
+    network_mode: host
+
   web:
     build: './web'
     ports:
